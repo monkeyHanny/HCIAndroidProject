@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    android:paddingTop="@dimen/activity_paddingTop">
+
+    <com.github.anastr.speedviewlib.TubeSpeedometer
+        android:id="@+id/dailyCalorieMeter"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/activity_paddingLeft"
+        android:paddingStart="@dimen/activity_paddingLeft"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:sv_highSpeedColor="@color/colorHighSpeed"
+        app:sv_lowSpeedColor="@color/colorLowSpeed"
+        app:sv_lowSpeedPercent="50"
+        app:sv_mediumSpeedPercent="75"
+        app:sv_speedTextColor="@color/colorMeterMark"
+        app:sv_textColor="@color/colorMeterMark"
+        app:sv_unit="@string/meter_unit"
+        app:sv_unitTextColor="@color/colorMeterMark"
+        app:sv_withTremble="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/btn_meal_marginRight"
+        android:paddingLeft="@dimen/btn_meal_marginRight"
+        android:layout_marginRight="@dimen/btn_meal_marginRight"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@id/dailyCalorieMeter">
+
+        <Button
+            android:id="@+id/btn_breakfast"
+            android:layout_width="@dimen/btn_meal_width"
+            android:layout_height="@dimen/btn_meal_height"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/btn_breakfast"
+            android:elevation="@dimen/raised_button_radius"
+            android:paddingLeft="@dimen/btn_meal_paddingLeft"
+            android:paddingRight="@dimen/btn_meal_paddingLeft"
+            android:text="@string/btn_breakfast"
+            android:textColor="@color/colorMeterMark" />
+
+        <Button
+            android:id="@+id/btn_lunch"
+            android:layout_width="@dimen/btn_meal_width"
+            android:layout_height="@dimen/btn_meal_height"
+            android:layout_marginEnd="@dimen/btn_meal_marginRight"
+            android:background="@drawable/btn_lunch"
+            android:elevation="@dimen/raised_button_radius"
+            android:paddingLeft="@dimen/btn_meal_paddingLeft"
+            android:paddingRight="@dimen/btn_meal_paddingLeft"
+            android:text="@string/btn_lunch"
+            android:textColor="@color/colorMeterMark" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toTopOf="@id/navigation">
+
+        <Button
+            android:id="@+id/btn_dinner"
+            android:layout_width="@dimen/btn_meal_width"
+            android:layout_height="@dimen/btn_meal_height"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/btn_dinner"
+            android:elevation="@dimen/raised_button_radius"
+            android:paddingLeft="@dimen/btn_meal_paddingLeft"
+            android:paddingRight="@dimen/btn_meal_paddingLeft"
+            android:text="@string/btn_dinner"
+            android:textColor="@color/colorMeterMark" />
+
+        <Button
+            android:id="@+id/btn_others"
+            android:layout_width="@dimen/btn_meal_width"
+            android:layout_height="@dimen/btn_meal_height"
+            android:background="@drawable/btn_others"
+            android:elevation="@dimen/raised_button_radius"
+            android:paddingLeft="@dimen/btn_meal_paddingLeft"
+            android:paddingRight="@dimen/btn_meal_paddingLeft"
+            android:text="@string/btn_others"
+            android:textColor="@color/colorMeterMark" />
+    </LinearLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@drawable/bottom_nav"
+        app:itemIconTint="@color/colorNavItem"
+        app:itemTextColor="@color/colorNavItem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation" />
+
+</android.support.constraint.ConstraintLayout>

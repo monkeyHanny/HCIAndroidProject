@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HCIAssignment</string>
+    <string name="title_home">Home</string>
+    <string name="title_weekly_summary">Weekly Summary</string>
+    <string name="title_list_of_food">List of Food</string>
+    <string name="title_profile">profile</string>
+    <string name="meter_unit">Cal</string>
+    <string name="btn_breakfast">Breakfast</string>
+    <string name="btn_lunch">Lunch</string>
+    <string name="btn_dinner">Dinner</string>
+    <string name="btn_others">Others</string>
+</resources>

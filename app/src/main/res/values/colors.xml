@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0277BD</color>
+    <color name="colorPrimaryDark">#004c8c</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorNavItem">#212121</color>
+    <color name="colorHighSpeed">#ff3d00</color>
+    <color name="colorLowSpeed">#ffc400</color>
+    <color name="colorMeterMark">#ffffff</color>
+    <color name="colorBreakfast">#D8486C</color>
+    <color name="colorLunch">#FFAA6E</color>
+    <color name="colorDinner">#00A6FF</color>
+    <color name="colorOthers">#1BB264</color>
+</resources>
