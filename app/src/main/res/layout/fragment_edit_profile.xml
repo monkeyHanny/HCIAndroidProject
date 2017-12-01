@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/nav_bar_height"
+    android:scrollbarStyle="insideOverlay">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <ImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/monkey_dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/label_paddingBottom"
+            android:paddingTop="@dimen/label_paddingTop"
+            android:text="Name" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/input_paddingBottom"
+            android:text="Monkey Coder" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/label_paddingBottom"
+            android:paddingTop="@dimen/label_paddingTop"
+            android:text="Date of Birth(DD/MM/YY)" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/input_paddingBottom"
+            android:text="01/08/92" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/label_paddingBottom"
+            android:paddingTop="@dimen/label_paddingTop"
+            android:text="Height(cm)" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/input_paddingBottom"
+            android:text="158" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/label_paddingBottom"
+            android:paddingTop="@dimen/label_paddingTop"
+            android:text="Weight(kg)" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/input_paddingBottom"
+            android:text="46" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/label_paddingBottom"
+            android:paddingTop="@dimen/label_paddingTop"
+            android:text="Gender" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:paddingBottom="@dimen/input_paddingBottom"
+                android:text="Female"
+                android:textAlignment="center" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/input_paddingBottom"
+                android:text="Male"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/label_paddingBottom"
+            android:paddingTop="@dimen/label_paddingTop"
+            android:text="Password" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:paddingBottom="@dimen/input_paddingBottom" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/label_paddingBottom"
+            android:paddingTop="@dimen/label_paddingTop"
+            android:text="Confirm Password" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:paddingBottom="@dimen/input_paddingBottom" />
+
+    </LinearLayout>
+</ScrollView>

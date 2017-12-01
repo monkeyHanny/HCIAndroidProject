@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_bar_height"
+        app:bb_behavior="iconsOnly"
+        app:bb_tabXmlResource="@xml/nav_items"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/ic_home_24dp"
+        id="@+id/tab_home"/>
+    <tab
+        icon="@drawable/ic_weekly_summary_24dp"
+        id="@+id/tab_weekly"
+        title="@string/title_weekly_summary" />
+    <tab
+        icon="@drawable/ic_meal_24dp"
+        id="@+id/tab_meal"
+        title="@string/title_list_of_food" />
+
+    <tab
+        icon="@drawable/ic_profile_24dp"
+        id="@+id/tab_profile"
+        title="@string/title_profile" />
+
+</tabs>

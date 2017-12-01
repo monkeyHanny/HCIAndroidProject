@@ -1,12 +1,15 @@
 <resources>
-    <string name="app_name">HCIAssignment</string>
+    <string name="app_name">kCal</string>
     <string name="title_home">Home</string>
     <string name="title_weekly_summary">Weekly Summary</string>
-    <string name="title_list_of_food">List of Food</string>
+    <string name="title_daily_summary">Daily Summary</string>
+    <string name="title_list_of_food">Food Catalog</string>
     <string name="title_profile">profile</string>
     <string name="meter_unit">Cal</string>
     <string name="btn_breakfast">Breakfast</string>
     <string name="btn_lunch">Lunch</string>
     <string name="btn_dinner">Dinner</string>
     <string name="btn_others">Others</string>
+    <string name="title_create_profile">Create an Account</string>
+    <string name="title_edit_profile">Edit Profile</string>
 </resources>
