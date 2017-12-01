@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">kCal</string>
+    <string name="app_name">kcal</string>
     <string name="title_home">Home</string>
     <string name="title_weekly_summary">Weekly Summary</string>
     <string name="title_daily_summary">Daily Summary</string>

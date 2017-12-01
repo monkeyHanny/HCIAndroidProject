@@ -31,7 +31,7 @@ public class HomeFragment extends Fragment {
         double bmr = Utility.getBMR(ifMan, height, weight, age);
 
         // change MAX calorie intake based on user profile
-        tubeSpeedometer.setMaxSpeed((int) (bmr / 0.75));
+        tubeSpeedometer.setMaxSpeed(1800);
         // change calorie to current intake
         tubeSpeedometer.speedTo(1450.67f);
 
